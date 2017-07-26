@@ -1,0 +1,31 @@
+{
+  "name": "@dreamland/react-load-more",
+  "version": "1.0.1",
+  "description": "react loading component",
+  "repository": "https://github.com/stoneqq11/react-load-more.git",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib --copy-files"
+  },
+  "keywords": [
+    "pagination",
+    "load",
+    "react",
+    "component"
+  ],
+  "author": "stoneqq11",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^7.0.1",
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-require-ignore": "^0.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-runtime": "^6.23.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}

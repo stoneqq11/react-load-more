@@ -1,0 +1,9 @@
+{
+    "presets": ['env', 'react'],
+    "plugins": ['transform-runtime',[
+        "transform-require-ignore",
+        {
+            "extensions": [ ".scss" ]
+        }
+    ]]
+}
